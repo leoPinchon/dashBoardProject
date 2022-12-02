@@ -8,9 +8,10 @@ const Home = () => {
     
     <div className='home'>
         <Sidebar/>
-
+        <div className="homeContainer">
+          container
+        </div>
     </div>
-
 
     </>
   )

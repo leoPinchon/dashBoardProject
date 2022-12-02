@@ -30,7 +30,7 @@ function App() {
             </Route>
           </Route>
         </Routes>      
-      </BrowserRouter>w
+      </BrowserRouter>
     </div>
     </>
   );

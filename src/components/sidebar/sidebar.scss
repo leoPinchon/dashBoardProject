@@ -1,0 +1,116 @@
+.sidebar {
+  flex: 1;
+  border-right: 0.5px solid #ece8ff;
+  min-height: 100vh;
+  background-color: white;
+
+
+
+  .top {
+    height: 70px;
+    margin: 15px;
+    display: flex;
+    margin-right: 10px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .logo {
+    font-size: 23px;
+    font-weight: bold;
+    color: #6439ff;
+  }
+
+  hr {
+    height: 0;
+    border: 0.5px solid #ece8ff;
+  }
+
+  .center-container{
+
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        min-height:max-content;
+
+      .center {
+        padding-left: 10px; 
+        ul {
+          list-style-type: none;
+          padding: 0;
+          margin: 0;
+    
+          .title {
+            font-size: 15px;
+            text-transform: uppercase;
+            font-weight: bold;
+            color: #999;
+            margin-top: 15px;
+            margin-bottom: 5px;
+          }
+    
+          li {
+            display: flex;
+            align-items: center;
+            padding: 5px;
+            cursor: pointer;
+            margin-bottom: 10px;
+    
+            &:hover {
+              background-color: #ece8ff;
+            }
+    
+            .icons {
+              font-size: 23px;
+              color: #7451f8;
+            }
+    
+            span {
+              font-size: 14px;
+              font-weight: 600;
+              color: #888;
+              margin-left: 10px;
+            }
+          }
+        }
+      }
+    
+      .bottom-container {
+        .title {
+          padding-left: 10px;
+    
+          font-size: 15px;
+          text-transform: uppercase;
+          font-weight: bold;
+          color: #999;
+          margin-top: 15px;
+          margin-bottom: 5px;
+        }
+        .bottom {
+          display: flex;
+          align-items: center;
+          margin: 20px;
+    
+          .color-options {
+            width: 20px;
+            height: 20px;
+            border-radius: 5px;
+            margin-right: 5px;
+            // background-color: #7451f8;
+            border: 1px solid #7451f8;
+            cursor: pointer;
+    
+            &:nth-child(1) {
+              background-color: whitesmoke;
+            }
+            &:nth-child(2) {
+              background-color: #333;
+            }
+            &:nth-child(3) {
+              background-color: darkblue;
+            }
+          }
+        }
+      }
+  }
+}
